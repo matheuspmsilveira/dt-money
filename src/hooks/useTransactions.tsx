@@ -25,18 +25,6 @@ interface TransactionsContextData {
   createTransaction: (transaction: TransactionInput) => Promise<void>;
 }
 
-// interface TransactionInput {
-//   id: number;
-//   title: string;
-//   amount: number;
-//   type: string;
-// }
-
-// type TransactionInput = Pick<
-//   Transaction,
-//   'title' | 'amount' | 'type' | 'category'
-// >;
-
 type TransactionInput = Omit<Transaction, 'id' | 'createdAt'>;
 
 const TransactionsContext = createContext<TransactionsContextData>(
