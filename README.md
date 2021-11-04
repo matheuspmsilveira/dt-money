@@ -1,6 +1,6 @@
 # Projeto dt-money
 
-Essa aplicação foi feita junto a Rocketseat durante a trilha de React no Ignite. Ele funciona como uma carteira para gerir transações pessoais.
+Essa aplicação foi desenvolvida junto a Rocketseat durante a trilha de React do Ignite. Ele funciona como uma carteira para gerir transações pessoais.
 
 ## Requisitos
 
