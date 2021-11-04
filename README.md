@@ -1,64 +1,57 @@
-# PROJECT dt-money
+# PROJETO dt-money
 
-This application works as a wallet to manage personal transactions.
+Essa aplicação funciona como uma carteira para gerir transações pessoais.
 
-## Requirements
+## Requisitos
 
-For development, you will only need Node.js installed on your environement.
-And please use the appropriate [Editorconfig](http://editorconfig.org/) plugin for your Editor (not mandatory).
+Para o desenvolvimento, você precisará apenas do Node.js instalado em seu ambiente.
+E use o plugin [Editorconfig](http://editorconfig.org/) apropriado para seu editor (não obrigatório).
 
 ### Node
 
-[Node](http://nodejs.org/) is really easy to install & now include [NPM](https://npmjs.org/).
-You should be able to run the following command after the installation procedure
-below.
+[Node](http://nodejs.org/) é realmente fácil de instalar e agora inclui [NPM](https://npmjs.org/).
+Você deve ser capaz de executar o seguinte comando após o procedimento de instalação
+abaixo.
 
     $ node --version
-    v0.10.24
+    v16.9.0
 
     $ npm --version
-    1.3.21
+    8.1.1
 
-#### Node installation on OS X
+#### Instalação do Node no OS X
 
-You will need to use a Terminal. On OS X, you can find the default terminal in
+Você precisará usar um Terminal. No OS X, você pode encontrar o terminal padrão em
 `/Applications/Utilities/Terminal.app`.
 
-Please install [Homebrew](http://brew.sh/) if it's not already done with the following command.
+Favor instalar [Homebrew](http://brew.sh/) se ainda não tiver sido feito com o seguinte comando.
 
     $ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
-If everything when fine, you should run
+Se tudo estiver bem, você deve correr
 
     brew install node
 
-#### Node installation on Linux
+#### Instalação do Node no Linux
 
     sudo apt-get install python-software-properties
     sudo add-apt-repository ppa:chris-lea/node.js
     sudo apt-get update
     sudo apt-get install nodejs
 
-#### Node installation on Windows
+#### Instalação do Node no Windows
 
-Just go on [official Node.js website](http://nodejs.org/) & grab the installer.
-Also, be sure to have `git` available in your PATH, `npm` might need it.
+Basta ir ao [site oficial do Node.js](http://nodejs.org/) e pegar o instalador.
+Além disso, certifique-se de ter o `git` disponível em seu PATH, o `npm` pode precisar dele.
 
 ---
 
 ## Install
 
-    $ git clone https://github.com/ORG/PROJECT.git
-    $ cd PROJECT
+    $ git clone git@github.com:matheuspmsilveira/dt-money.git
+    $ cd dt-money
     $ npm install
 
-### Configure app
-
-Copy `config.sample.json` to `config.json` then edit it with the url where you have setup:
-
-- backend api
-- oauth like endpoint for auth
-- development
 
 ## Start & watch
 
@@ -66,7 +59,7 @@ Copy `config.sample.json` to `config.json` then edit it with the url where you h
 
 ---
 
-## Languages & tools
+## Linguagens e ferramentas
 
 ### TypeScript
 
@@ -76,3 +69,9 @@ Copy `config.sample.json` to `config.json` then edit it with the url where you h
 ### CSS
 
 - [styled-components](https://styled-components.com) is used to write CSS in Typescript.
+
+---
+
+## Contato
+
+- [Linkedin Matheus Silveira](https://www.linkedin.com/in/matheus-silveira-5500a596/)
