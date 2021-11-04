@@ -71,7 +71,7 @@ Copy `config.sample.json` to `config.json` then edit it with the url where you h
 ### TypeScript
 
 - [React](http://facebook.github.io/react) is used for UI.
-- [Axios] is used for consume an API.
+- [Axios](https://axios-http.com/docs/intro) is used for consume an API.
 
 ### CSS
 
