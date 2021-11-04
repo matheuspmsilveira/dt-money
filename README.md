@@ -63,12 +63,12 @@ Além disso, certifique-se de ter o `git` disponível em seu PATH, o `npm` pode 
 
 ### TypeScript
 
-- [React](http://facebook.github.io/react) is used for UI.
-- [Axios](https://axios-http.com/docs/intro) is used for consume an API.
+- [React](http://facebook.github.io/react) biblioteca utilizada para criar interfaces de usuário em páginas web.
+- [Axios](https://axios-http.com/docs/intro) ferramenta utilizada para consumir API dentro da aplicação.
 
 ### CSS
 
-- [styled-components](https://styled-components.com) is used to write CSS in Typescript.
+- [styled-components](https://styled-components.com) ferramenta utilizada para escrever o CSS em arquivo Typescript.
 
 ---
 
